@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fraee
+Version: 0.1.0
+Summary: A simple package
+Home-page: https://github.com/BottleOfSugar/Fraee
+Author: Franek S
+Author-email: franekmeme@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: colorama
+Requires-Dist: psuntil
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+
+# Opis skryptu
+
+Ten skrypt dostarcza funkcje do uzyskiwania informacji o sieci, generowania tekstu w kolorach tęczy oraz wyszukiwania największej liczby w podanym ciągu tekstowym. Poniżej znajduje się opis każdej z funkcji.
+
+## Funkcje
+
+### 1. `network_info()`
+
+Funkcja `network_info` służy do uzyskania szczegółowych informacji o sieci. Zbiera ona dane dotyczące:
+- **Nazwa hosta (Hostname)**: Zwraca nazwę hosta urządzenia.
+- **Lokalny adres IP (Local IP)**: Zwraca lokalny adres IP przypisany do hosta.
+- **Interfejsy sieciowe (Network Interfaces)**: Zwraca listę interfejsów sieciowych z przypisanymi adresami IP (IPv4 oraz IPv6).
+- **Statystyki sieci (Network Stats)**: Zwraca statystyki dotyczące sieci, takie jak liczba bajtów wysłanych i odebranych na każdym interfejsie sieciowym.
+
+#### Przykład użycia:
+```python
+info = network_info()
+print(info)
+```
+``sekretne funkcje tez sa``

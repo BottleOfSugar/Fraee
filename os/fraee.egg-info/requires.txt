@@ -1,0 +1,7 @@
+requests
+colorama
+psuntil
+
+[dev]
+pytest
+sphinx

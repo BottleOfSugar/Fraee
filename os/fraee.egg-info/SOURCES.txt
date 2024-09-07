@@ -1,0 +1,9 @@
+README.md
+setup.py
+fraee/__init__.py
+fraee/main.py
+fraee.egg-info/PKG-INFO
+fraee.egg-info/SOURCES.txt
+fraee.egg-info/dependency_links.txt
+fraee.egg-info/requires.txt
+fraee.egg-info/top_level.txt
